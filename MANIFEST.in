@@ -1,0 +1,4 @@
+graft cinema/templates
+graft cinema/static
+
+include cinema/schema.sql
