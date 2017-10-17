@@ -1,4 +1,4 @@
-from flask import Flask # create the application instance :)
+from flask import Flask, render_template # create the application instance :)
 app.config.from_object(__name__) # load config from this file , flaskr.py
 
 app = Flask(__name__)
@@ -10,8 +10,8 @@ app.config.update(dict(
     USERNAME='admin',
     PASSWORD='default'
 ))
-app.config.from_envvar('FLASKR_SETTINGS', silent=True)
+# app.config.from_envvar('CINEMA_SETTINGS', silent=True)
 
 @app.route('/'):
 def index():
-    return
+    return render_template('')

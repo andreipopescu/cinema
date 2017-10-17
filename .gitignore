@@ -1,0 +1,4 @@
+.git
+.venv
+.vscode
+cinema.egg-info/*
