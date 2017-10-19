@@ -12,6 +12,6 @@ app.config.update(dict(
 ))
 # app.config.from_envvar('CINEMA_SETTINGS', silent=True)
 
-@app.route('/'):
+@app.route('/')
 def index():
     return render_template('')
